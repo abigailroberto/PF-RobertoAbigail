@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Text+Me+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --ff: 'Oooh Baby', cursive;
+    --ff: 'Text Me One', sans-serif;
+    --bc: #ab968d;
+    --bc: #e4d5c8;
+    --bc: #aba49a;
+}
+
+/*  START HEADER */ 
+.header1{
+    font-family: 'Text Me One', sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: #ab968d;
+}
+
+.off{
+    animation-name: off;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+    
+@keyframes off {
+    50%{
+        transform: translateX(700px);
+    }
+}
+
+.buscador{
+    width: 200px;
+    transition: 2s;
+    border-style: dotted;
+}
+
+.buscador:focus{
+    width: 250px;
+}
+
+.logo{
+    width: 200px;
+    height: 100px;
+}
+
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    font-family: 'Text Me One', sans-serif;
+    font-size: 20px;
+    z-index: 1;
+}
+/*FINISH HEADER*/
+
+/*START MAIN*/
+.foto{
+    text-align: center; 
+    margin-left: 15px;
+    margin-top: 150px; 
+}
+
+.card{
+    color: rgb(5, 5, 5);
+    background-color: rgba(255, 255, 255, 0.664);
+    font-family: 'Text Me One', sans-serif;
+}
+
+.btn{
+    color: rgb(5, 5, 5); 
+    background-color: rgba(255, 255, 255, 0.664);   
+    font-family: 'Text Me One', sans-serif;
+}
+
+.btn:hover{
+    color: #fff;
+}
+
+.gift{
+    display: flex;
+    justify-content: space-around;
+    align-content: center; 
+    background-color: #ab968d;
+    font-size: 40px;
+    padding-top: 20px;
+    margin-top: 20px;
+    width: 100%;
+    font-family: 'Oooh Baby', cursive;;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    grid-gap: 15px;
+}
+
+.icono{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 40px;
+}
+
+.titulo-fmain{
+    font-size: 20px;
+    font-family: 'Text Me One', sans-serif;
+    padding-top: 30px;
+}
+
+.parrafo-fmain{
+    font-size: 15px;
+    font-family: 'Text Me One', sans-serif;
+}
+/*FINISH MAIN */ 
+
+/*START FOOTER*/ 
+footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #ab968dad;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.follow{
+    font-size: 20px;
+    font-family: 'Text Me One', sans-serif;
+}
+
+.iconoInst{
+    font-size: 30px;
+    text-align: center;
+}
+
+.inst{
+    color: #000
+}
+
+.inst:hover{
+    color: #fff;
+}
+
+.newsletter{
+    font-size: 20px;
+    font-family: 'Text Me One', sans-serif;
+}
+
+.inputEmail{
+    width: 125px;
+    font-family: 'Text Me One', sans-serif;
+    border-radius: 5px;
+}
+
+.enviar{
+    background-color: #e4d5c8; 
+    height: 30px;
+    width: 50px;
+    transition: width 2s;
+    font-family: 'Text Me One', sans-serif;
+}
+
+.enviar:hover{
+    width: 80px;
+    background-color: #fff;
+}
+
+.contactenos{
+    font-family: 'Text Me One', sans-serif;
+    font-size: 20px;
+}
+
+.contacto{
+    display: flex; 
+    font-family: 'Text Me One', sans-serif;
+    gap: 15px;
+}
+
+/*FINISH FOOTER*/
