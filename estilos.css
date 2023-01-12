@@ -181,8 +181,42 @@ footer{
 
 .contacto{
     display: flex; 
+    flex-wrap: wrap;
     font-family: 'Text Me One', sans-serif;
     gap: 15px;
 }
 
 /*FINISH FOOTER*/
+
+/*START MENU PRINCIPAL QUIENES-SOMOS*/
+
+.nosotras{
+    display: flex;
+    justify-content: center;
+}
+
+.nosotras1{
+    font-family: 'Oooh Baby', cursive;
+    font-size: 60px;
+}
+
+.card-img-top{
+    padding: 40px;
+}
+
+.card-text{
+    font-family: 'Text Me One', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-img-bottom{
+    padding: 40px;
+    
+}
+
+.bienvenidos{
+    font-family: 'Text Me One', sans-serif;
+    font-size: 35px;
+    text-align: center;
+}
