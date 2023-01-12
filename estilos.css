@@ -198,6 +198,7 @@ footer{
 .nosotras1{
     font-family: 'Oooh Baby', cursive;
     font-size: 60px;
+    color: #6e7375;
 }
 
 .card-img-top{
@@ -219,4 +220,46 @@ footer{
     font-family: 'Text Me One', sans-serif;
     font-size: 35px;
     text-align: center;
+}
+
+/*FINISH MENU PRINCIPAL QUIENES SOMOS*/
+
+/*START MENU PRINCIPAL CONTACTO*/
+.contactoMenuP{
+    font-family: 'Oooh Baby', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: #6e7375;
+}
+
+.contacto-formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.atencion{
+    font-family: 'Text Me One', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+.formulario{
+    font-family: 'Text Me One', sans-serif;
+}
+
+.form-control{
+    width: 400px;
+}
+
+.enviarForm{
+    color: #fff;
+    font-family: 'Text Me One', sans-serif;
+    background-color: #ab968d;
+    width: 400px;
+    margin-bottom: 15px;
+}
+
+.enviarForm:hover{
+    background-color: #6e7375;
 }
