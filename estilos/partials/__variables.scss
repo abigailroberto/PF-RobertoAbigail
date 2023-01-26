@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&family=Text+Me+One&display=swap');
+
+$font1: 'Oooh Baby', cursive;
+$font2: 'Text Me One', sans-serif;
+$colorppal: #ab968d;
+$colorsegundo: #e4d5c8;
+$colortercero: #aba49a;
+$colorcuarto:#6e7375;
+$fontsize1: 20px;
+$fontsize2: 15px;
+$fontsize3: 25px;
+$fontsize4: 50px;
+
+@mixin flex ($direction, $justify, $align) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}

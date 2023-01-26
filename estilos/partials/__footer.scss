@@ -1,0 +1,69 @@
+footer {
+    @include flex (row, space-around, flex-start);
+    flex-wrap: wrap;
+    background-color: $colorppal;
+    padding: 20px;
+
+    & .follow {
+        font-size: $fontsize1;
+        font-family: $font2;
+    }
+
+    & .iconoInst {
+        font-size: $fontsize3;
+        text-align: center;
+        color: #000;
+    }
+
+    & .inst {
+        color: #000
+    }
+
+    & .inst:hover {
+        color: #fff;
+    }
+
+    & .newsletter {
+        font-size: $fontsize1;
+        font-family: $font2;
+    }
+
+    & .inputEmail {
+        width: 125px;
+        font-family: $font2;
+        border-radius: 5px;
+    }
+
+    & .inputEmail {
+        width: 125px;
+        font-family: $font2;
+        border-radius: 5px;
+    }
+
+    & .enviar {
+        background-color: $colorsegundo; 
+        height: 30px;
+        width: 50px;
+        transition: width 2s;
+        font-family: $font2;
+    }
+
+    & .enviar:hover {
+        width: 80px;
+        background-color: #fff;
+    }
+
+    & .contactenos {
+        font-family: $font2;
+        font-size: $font2;
+    }
+
+    & .contacto {
+        display: flex; 
+        flex-wrap: wrap;
+        font-family: $font2;
+        gap: 15px;
+    }
+}
+
+

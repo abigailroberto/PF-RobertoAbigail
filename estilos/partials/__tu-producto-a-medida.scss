@@ -1,0 +1,45 @@
+.tu-producto-a-medida {
+    @include flex (column, center, center);
+
+    & .producto-medida {
+        font-family: $font1;
+        font-size: $fontsize4;
+        color: $colorcuarto;
+    }
+
+    & .producto-medida1 {
+        font-family: $font2;
+        font-size: $fontsize1;
+    }
+}
+
+.detalles {
+    list-style-type: none;
+    font-family: $font2;
+    font-size: $fontsize1;
+    line-height: 2;
+    flex-wrap: wrap;
+
+
+    & .detalles-item {
+        background-color: $colorppal;
+        padding-inline: 25px;
+        -webkit-animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+        animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    }
+
+    @for $detalles from 1 through 3 {
+        .detalles-item#{$detalles} {
+            animation-delay: $detalles*.5s;
+        }
+    }
+}
+
+.producto-medida-items {
+    list-style-image: url(../../img/logoPachiraColorChico.png);
+    line-height: 2;
+    font-family: $font2;
+    font-size: $fontsize1;
+}
+
+ @-webkit-keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}

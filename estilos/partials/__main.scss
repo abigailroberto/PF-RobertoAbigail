@@ -1,0 +1,74 @@
+.tarjetitas {
+    @include mediaquery (1190px) {
+        gap: 1rem;
+    }
+
+    @include flex (row, center, space-around);
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    & .card {
+        display: flex;
+        max-width: 300px;
+    }
+
+    & .card-title {
+        @include flex (column, center, center);
+        margin-top: 150px;
+        font-family: $font2;
+        font-size: $fontsize3;
+        color: $colorcuarto;
+        font-weight: bold;
+    }
+
+    & .btn {
+        @include flex (column, center, center);
+        font-family: $font2;
+        font-size: $font1;
+        color: $colorcuarto;
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    & .btn:hover {
+        color: #fff;
+    }
+}
+
+.gift {
+    @include flex (row, space-around, center);
+    background-color: $colorppal;
+    font-size: $fontsize4;
+    padding-top: 20px;
+    margin-top: 20px;
+    width: 100%;
+    font-family: $font1;
+}
+
+.info {
+    @include flex (row, space-around, center);
+    flex-wrap: wrap;
+    grid-gap: 15px;
+
+    & .icono {
+        @include flex (column, center, center);
+        margin-top: 15px;
+        font-size: $fontsize4;
+    }
+
+    & .titulo-fmain {
+    font-size: $fontsize1;
+    font-family: $font2;
+    padding-top: 30px;
+    }
+
+    & .parrafo-fmain {
+    font-size: $fontsize2;
+    font-family: $font2;
+    }
+}
+
+
+
+
+

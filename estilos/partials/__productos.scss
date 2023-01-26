@@ -1,0 +1,21 @@
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1rem;
+
+    & .categorias {
+        list-style-type: none;
+        font-family: $font2;
+        font-size: $fontsize1;
+        }
+    }
+
+.card2 {
+    display: flex;
+    margin-inline: 50px;
+    font-family: $font2;
+    font-size: $fontsize2;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}

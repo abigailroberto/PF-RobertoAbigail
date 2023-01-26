@@ -1,0 +1,47 @@
+.contactoMenuP {
+    font-family: $font1;
+    font-size: $fontsize4;
+    text-align: center;
+    color: $colorcuarto;
+}
+
+.contacto-formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    & .atencion {
+        font-family: $font2;
+        text-align: center;
+        font-size: $fontsize1;
+
+        & .contacto {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            justify-content: center;
+        }
+    }    
+}
+
+.formulario {
+    font-family: $font2;
+
+    & .form-control {
+        width: 400px;
+    }
+
+    & .enviarForm {
+        color: #fff;
+        font-family: $font2;
+        background-color: $colorppal;
+        width: 400px;
+        margin-bottom: 15px;
+    }
+
+    & .enviarForm:hover {
+        background-color: $colorcuarto;
+    }
+}
+
+

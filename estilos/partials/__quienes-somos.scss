@@ -1,0 +1,29 @@
+.nosotras {
+    display: flex;
+    justify-content: center;
+    font-family: $font1;
+    font-size: $fontsize4;
+    color: $colorcuarto;
+}
+
+.sobreNosotras {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.sobreNosotras {
+    img {
+        max-width: 80%;
+        flex-wrap: wrap;
+    }
+
+    p {
+        font-family: $font2;
+        font-size: $fontsize1;
+        text-align: center;
+        padding-top: 15px;
+        margin-inline: 50px;
+    }
+}
+
