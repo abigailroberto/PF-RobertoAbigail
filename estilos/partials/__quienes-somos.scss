@@ -12,13 +12,23 @@
     justify-content: center; 
 }
 
+.carusel-total {
+    max-width: 50%;
+
+    & .carusel-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 .sobreNosotras {
-    img {
+    & img {
         max-width: 80%;
         flex-wrap: wrap;
     }
 
-    p {
+    & p {
         font-family: $font2;
         font-size: $fontsize1;
         text-align: center;

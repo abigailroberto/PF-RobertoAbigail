@@ -10,6 +10,8 @@
     & .producto-medida1 {
         font-family: $font2;
         font-size: $fontsize1;
+        padding-left: 15px;
+        text-align: center;
     }
 }
 
@@ -19,6 +21,7 @@
     font-size: $fontsize1;
     line-height: 2;
     flex-wrap: wrap;
+    padding-inline: 15px;
 
 
     & .detalles-item {
@@ -26,6 +29,12 @@
         padding-inline: 25px;
         -webkit-animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
         animation:scale-in-center .5s cubic-bezier(.25,.46,.45,.94) both;
+        
+        & .pedidos{
+            margin: 10px;
+            text-align: center;
+        }   
+    
     }
 
     @for $detalles from 1 through 3 {
@@ -40,6 +49,10 @@
     line-height: 2;
     font-family: $font2;
     font-size: $fontsize1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    text-align:justify;
 }
 
  @-webkit-keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes scale-in-center{0%{-webkit-transform:scale(0);transform:scale(0);opacity:1}100%{-webkit-transform:scale(1);transform:scale(1);opacity:1}}

@@ -57,26 +57,15 @@
   width: 150px;
   border-color: #6e7375;
   border-radius: 5px;
-  transition: 2s;
 }
 @media screen and (max-width: 886px) {
   .header2 .buscador {
-    width: 200px;
+    width: 150px;
   }
 }
 @media screen and (max-width: 480px) {
   .header2 .buscador {
-    width: 70px;
-  }
-}
-.header2 .buscador:focus {
-  width: 250px;
-  border-color: #6e7375;
-  border-style: dashed;
-}
-@media screen and (max-width: 886px) {
-  .header2 .buscador:focus {
-    width: 100px;
+    width: 60px;
   }
 }
 .header2 .logo {
@@ -264,6 +253,15 @@ footer .contacto {
   justify-content: center;
 }
 
+.carusel-total {
+  max-width: 50%;
+}
+.carusel-total .carusel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .sobreNosotras img {
   max-width: 80%;
   flex-wrap: wrap;
@@ -352,6 +350,8 @@ footer .contacto {
 .tu-producto-a-medida .producto-medida1 {
   font-family: "Text Me One", sans-serif;
   font-size: 20px;
+  padding-left: 15px;
+  text-align: center;
 }
 
 .detalles {
@@ -360,12 +360,17 @@ footer .contacto {
   font-size: 20px;
   line-height: 2;
   flex-wrap: wrap;
+  padding-inline: 15px;
 }
 .detalles .detalles-item {
   background-color: #ab968d;
   padding-inline: 25px;
   -webkit-animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: scale-in-center 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.detalles .detalles-item .pedidos {
+  margin: 10px;
+  text-align: center;
 }
 .detalles .detalles-item1 {
   -webkit-animation-delay: 0.5s;
@@ -385,6 +390,10 @@ footer .contacto {
   line-height: 2;
   font-family: "Text Me One", sans-serif;
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  text-align: justify;
 }
 
 @-webkit-keyframes scale-in-center {
